@@ -4,7 +4,7 @@
         
 
     <!-- <child-page :title="부모에게서 넘기는 내용"></child-page> -->
-    <child-page :title=title />
+    <child-page :title=title :num=num :arr=arr :obj=obj :boo=boo />
     
     </div>
 </template>

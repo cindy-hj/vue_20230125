@@ -4,7 +4,8 @@
         {{ title }}<br />
         {{ num }}<br />
         {{ arr[1] }}<br />
-        <!-- {{ obj[1] }}<br /> --> 
+        {{ obj.나이 }}<br />
+        {{ boo }}<br />
         
 
         
@@ -23,7 +24,7 @@ export default {
             default: 0
         },
         arr:{
-            type: Array,
+            type: Array,s
             default: ['값 없을때']
         },
         // obj:{
